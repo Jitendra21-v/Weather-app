@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
+*{  font-family:  'Montserrat';
+    box-sizing: border-box;
+}
+body{
+    background-color: lightcyan;
+    background-repeat: no-repeat;
+    background-image: url(/img.jpg);
+    text-align: center;
+    background-size:100% 145% ;
+    background-attachment: fixed;
+}
+#form{
+    margin-top: 10%;
+}
+@media only screen and (max-width: 800px) {
+    body {
+        background-size:100% 150% ;
+    }
+  }
