@@ -43,3 +43,15 @@ input{
 .weather img{
     transform: scale(1);
 }
+#foot{
+    position: relative;
+    size:2rem;
+    margin-top: 10%;
+}
+#foot a{
+    text-decoration: none;
+}
+#foot i{
+    font-size: 1.5rem;
+    color:black;   
+}
