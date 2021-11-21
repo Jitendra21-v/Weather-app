@@ -18,13 +18,19 @@ async function getWeather(city) {
 }
 //getWeather('dehradun');
 function addWeatherToPage(data){
+    const forecast=data.weather[0].main;
+
     const temp= KtoC(data.main.temp);
     const weather=document.createElement("div");
     weather.classList.add('weather');
     weather.innerHTML=`
     
-    <h2>${temp}&#176C</h2>
-    <p>in ${search.value}</p>
+    <h2>${temp}&#176C 
+    <small>${forecast}</small></h2>
+    <small>
+     <img src="https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png">
+     <small>
+     <p>in ${search.value}</p>
     `;
 
     //cleanup
