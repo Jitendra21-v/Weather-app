@@ -15,6 +15,10 @@ async function getWeather(city) {
 
    
     addWeatherToPage(respData);
+    
+     document.body.style.backgroundImage =
+    "url('https://source.unsplash.com/1600x900/?" + city + "')";
+
 }
 //getWeather('dehradun');
 function addWeatherToPage(data){
