@@ -9,6 +9,9 @@ body{
     text-align: center;
     background-size:100% 145% ;
     background-attachment: fixed;
+    background-image: url('https://source.unsplash.com/1600x900/?landscape');
+
+}
 }
 #form{
     margin-top: 10%;
